@@ -11,4 +11,4 @@ A demo for accelerating sobel in xilinx's fpga pynq
 
 # 3.run all and check the result
 
-   ![result](https://github.com/clancylea/pynq-sobel/raw/master/picture/result_1080p_golden.bmp)
+   ![result](https://github.com/clancylea/pynq-sobel/raw/master/picture/result.PNG)
