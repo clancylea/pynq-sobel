@@ -1,6 +1,6 @@
 # pynq-sobel
 A demo for accelerating sobel in xilinx's fpga pynq
-# 1.clone or Download this repo
+# 1.clone or download this repo
 # 2.change the bit and picture path via your path
 
       #the bitstream path (The name of .tcl must be same as the name of .bit)
