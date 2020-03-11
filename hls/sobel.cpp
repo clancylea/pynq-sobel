@@ -11,7 +11,7 @@
 
 #include<stdio.h>
 #include"sobel.h"
-
+#include<string.h>
 // RGB to Y Conversion
 // Resulting luminance value used in edge detection
 //y= R*0.257 + G*0.564 + B*0.098 + 16
