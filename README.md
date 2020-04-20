@@ -1,5 +1,7 @@
 # pynq-sobel
 A demo for accelerating sobel in xilinx's fpga pynq
+  ![system](https://github.com/clancylea/pynq-sobel/blob/master/picture/system.jpg)
+
 # 1.clone or download this repo
 # 2.change the bit and picture path via your path
 
@@ -12,3 +14,5 @@ A demo for accelerating sobel in xilinx's fpga pynq
 # 3.run all and check the result
 
    ![result](https://github.com/clancylea/pynq-sobel/raw/master/picture/result.png)
+   
+*rebuild this prj reference：**vivado** repo
