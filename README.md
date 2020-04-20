@@ -1,5 +1,5 @@
 # pynq-sobel
-A demo for accelerating sobel in xilinx's fpga pynq
+A demo for accelerating sobel in xilinx's fpga pynq  
   ![system](https://github.com/clancylea/pynq-sobel/blob/master/picture/system.jpg)
 
 # 1.clone or download this repo
