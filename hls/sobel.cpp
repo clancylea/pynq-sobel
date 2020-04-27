@@ -90,8 +90,8 @@ void sobel_filter(hls_int32 *in_pix, hls_int32 *out_pix, unsigned int byte_rdoff
 	int addr_reserved=0;
 //#pragma HLS RESOURCE variable=inout_pix core=AXI4M
 	//Data Flow Bus(Read and Write)
-#pragma HLS INTERFACE m_axi depth=2048 port=in_pix offset=off bundle=Data_Bus
-#pragma HLS INTERFACE m_axi depth=2048 port=out_pix offset=off bundle=Data_Bus
+#pragma HLS INTERFACE m_axi depth=2073600  port=in_pix offset=slave  bundle=Data_Bus
+#pragma HLS INTERFACE m_axi depth=2073600  port=out_pix offset=slave bundle=Data_Bus
 	//Control Bus
 #pragma HLS INTERFACE s_axilite register port=return offset=0x00 bundle=Ctrl_Bus
 #pragma HLS INTERFACE s_axilite register port=byte_rdoffset offset=0x14 bundle=Ctrl_Bus
